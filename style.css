@@ -1,0 +1,80 @@
+body{
+	background-color: #eef0e1;
+}
+
+
+
+h1, h2{
+	font-family: poppins;
+	color: pink;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+h2{
+	font-size: 20px;
+	text-transform: none;
+	font-style: italic;
+
+}
+
+#producto1{
+	height: 200px;
+}
+
+#producto2{
+	height: 200px;
+}
+
+#producto3{
+	height: 180px;
+}
+
+
+.productos{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-color: white;
+	margin-top: 50px;
+	padding: 20px;
+	border-radius: 5px;
+
+}
+
+ul{
+	list-style: none;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+a{
+	color: purple;
+	text-decoration: none;
+}
+
+a:hover{
+	color: hotpink;
+}
+
+nav{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: poppins;
+	text-align: center;
+}
+
+.info{
+	font-family: poppins;
+	font-size: 16px;
+	padding: 40px;
+	background-color: pink;
+	border-radius: 20px;
+	margin-top: 20px;
+
+
+}
